@@ -59,7 +59,7 @@ public class VACalendar {
         selectedDays = days
     }
     
-    func setDaysAvailability(_ availability: DaysAvailability) {
+    public func setDaysAvailability(_ availability: DaysAvailability) {
         daysAvailability = availability
         
         switch availability {
